@@ -27,7 +27,7 @@ function Header(){
                     <ul className="nav__list grid">
                         <li className="nav__item">
                             <a href="#home" onClick={()=> setActiveNav("#home")} className={activeNav==="#home"?"nav__link active-link":"nav__link"}>
-                                <i className="uil uil-estate nav__icon"></i> Home
+                                <i className="uil uil-home nav__icon"></i> Home
                             </a>
                         </li>
 
