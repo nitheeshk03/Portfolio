@@ -61,12 +61,12 @@ function Contact(){
                     <form className="contact__form" ref={form} onSubmit={sendEmail}>
                         <div className="contact__form-div">
                             <label className="contact__form-tag">Name</label>
-                            <input type="text" name="name" className="contact__form-input" placeholder="Enter your name"/>
+                            <input type="text" name="name" className="contact__form-input" placeholder="Enter your name" required/>
                         </div>
 
                         <div className="contact__form-div">
                             <label className="contact__form-tag">Mail</label>
-                            <input type="email" name="email" className="contact__form-input" placeholder="Enter your email"/>
+                            <input type="email" name="email" className="contact__form-input" placeholder="Enter your email" required/>
                         </div>
 
                         <div className="contact__form-div contact__form-area">

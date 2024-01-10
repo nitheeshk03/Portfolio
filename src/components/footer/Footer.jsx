@@ -30,7 +30,7 @@ function Footer(){
                         <i className="bx bxl-skype"></i>
                     </a>
                 </div>
-                <span className="footer__copy">&#169; Nitheesh Kumar N. All rights reserved</span>
+                <span className="footer__copy">&#169; Nitheesh Kumar N.</span>
             </div>
         </footer>
     )
