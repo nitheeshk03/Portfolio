@@ -36,10 +36,10 @@ function Contact(){
                         </div>
 
                         <div className="contact__card">
-                            <i className="bx bxl-whatsapp contact__card-icon"></i>
-                            <h3 className="contact__card-title">Whatsapp</h3>
-                            <span className="contact__card-data">+91 96778 51538</span>
-                            <a href="https://api.whatsapp.com/send?phone=919677851538&text=Hello!" className="contact__button" target='_blank' rel="noreferrer">Write me in 
+                            <i className="bx bxl-linkedin contact__card-icon"></i>
+                            <h3 className="contact__card-title">LinkedIn</h3>
+                            <span className="contact__card-data">Nitheesh Kumar N</span>
+                            <a href="https://www.linkedin.com/in/nitheesh-kumar-n/" className="contact__button" target='_blank' rel="noreferrer">Write me in 
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>

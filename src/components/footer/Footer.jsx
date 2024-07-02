@@ -20,17 +20,17 @@ function Footer(){
                     </li>
                 </ul>
                 <div className="footer__social">
+                    <a href="mailto:nitheeshk03@gmail.com" className="footer__social-link" target="_blank" rel="noreferrer">
+                        <i className="bx bxl-gmail"></i>
+                    </a>
                     <a href="https://www.linkedin.com/in/nitheesh-kumar-n/" className="footer__social-link" target="_blank" rel="noreferrer">
                         <i className="bx bxl-linkedin"></i>
-                    </a>
-                    <a href="https://api.whatsapp.com/send?phone=919677851538&text=Hello!" className="footer__social-link" target="_blank" rel="noreferrer">
-                        <i className="bx bxl-whatsapp"></i>
                     </a>
                     <a href="https://join.skype.com/invite/wKm4d7V4FijZ" className="footer__social-link" target="_blank" rel="noreferrer">
                         <i className="bx bxl-skype"></i>
                     </a>
                 </div>
-                <span className="footer__copy">&#169; Nitheesh Kumar N.</span>
+                {/* <span className="footer__copy">&#169; Nitheesh Kumar N.</span> */}
             </div>
         </footer>
     )

@@ -9,14 +9,7 @@ function Frontend(){
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">HTML5</h3>
-                        </div>
-                    </div>
-
-                    <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
-                        <div>
-                            <h3 className="skills__name">CSS</h3>
+                            <h3 className="skills__name">HTML, CSS</h3>
                         </div>
                     </div>
 
@@ -24,6 +17,13 @@ function Frontend(){
                         <i className="bx bx-badge-check"></i>
                         <div>
                             <h3 className="skills__name">JavaScript</h3>
+                        </div>
+                    </div>
+
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">JQuery</h3>
                         </div>
                     </div>
                 </div>
@@ -39,14 +39,14 @@ function Frontend(){
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">Git/Github</h3>
+                            <h3 className="skills__name">React</h3>
                         </div>
                     </div>
-
+                    
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">React</h3>
+                            <h3 className="skills__name">Angular</h3>
                         </div>
                     </div>
                 </div>

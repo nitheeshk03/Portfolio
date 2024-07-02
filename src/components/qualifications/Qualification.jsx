@@ -115,10 +115,10 @@ function Qualification(){
                     >
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Software Developer Intern</h3>
+                                <h3 className="qualification__title">Full Stack Engineer Intern</h3>
                                 <span className="qualification__subtitle">Fidelity Investments - India</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> Jun - Aug 2023
+                                    <i className="uil uil-calendar-alt"></i> Feb - Jun 2024
                                 </div>
                             </div>
 
@@ -130,18 +130,33 @@ function Qualification(){
 
                         <div className="qualification__data">
                             <div></div>
-
                             <div>
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
                             </div>
 
                             <div>
+                                <h3 className="qualification__title">Software Developer Intern</h3>
+                                <span className="qualification__subtitle">Fidelity Investments - India</span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt"></i> Jun - Aug 2023
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div className="qualification__data">
+                            <div>
                                 <h3 className="qualification__title">Student Intern</h3>
                                 <span className="qualification__subtitle">IBM - India</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i> Sept. 2018
                                 </div>
+                            </div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
                             </div>
                         </div>
 

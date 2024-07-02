@@ -16,19 +16,34 @@ function Additional(){
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">Machine Learning</h3>
+                            <h3 className="skills__name">AI/ML</h3>
                         </div>
                     </div>
 
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">Deep Learning</h3>
+                            <h3 className="skills__name">Git/Github</h3>
+                        </div>
+                    </div>
+
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">Docker</h3>
                         </div>
                     </div>
                 </div>
 
                 <div className="skills__group">
+                    
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">DSA</h3>
+                        </div>
+                    </div>
+
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
