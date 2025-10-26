@@ -2,28 +2,17 @@ import React, {useState} from "react";
 import "./qualifications.css";
 
 function Qualification(){
-    const [toggleModal, setToggleModal] = useState(1);
+    const [toggleModal, setToggleModal] = useState(2);
     const toggleTab = (index) => {
         setToggleModal(index)
     }
 
     return(
-        <section className="qualification section">
+        <section className="qualification section" id="experience">
             <h2 className="section__title">Qualification</h2>
             <span className="section__subtitle">My Personal Journey</span>
             <div className="qualification__container container">
                 <div className="qualification__tabs">
-                    <div 
-                        className={
-                            toggleModal === 1
-                                ? "qualification__button qualification__active button--flex"
-                                : "qualification__button button--flex" }
-                        onClick={() => toggleTab(1)}
-                    >
-                        <i className="uil uil-graduation-cap qualification__icon"></i>
-                        Education
-                    </div>
-
                     <div 
                         className={
                             toggleModal === 2
@@ -33,6 +22,17 @@ function Qualification(){
                     >
                         <i className="uil uil-briefcase-alt qualification__icon"></i>
                         Experience
+                    </div>
+
+                    <div 
+                        className={
+                            toggleModal === 1
+                                ? "qualification__button qualification__active button--flex"
+                                : "qualification__button button--flex" }
+                        onClick={() => toggleTab(1)}
+                    >
+                        <i className="uil uil-graduation-cap qualification__icon"></i>
+                        Education
                     </div>
                 </div>
                 <div className="qualification__sections">
@@ -47,7 +47,7 @@ function Qualification(){
                                 <h3 className="qualification__title">Computer Science and Engineering</h3>
                                 <span className="qualification__subtitle">SSN College of Engineering - India</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2020 - Present
+                                    <i className="uil uil-calendar-alt"></i> 2020 - 2024
                                 </div>
                             </div>
 
@@ -115,6 +115,38 @@ function Qualification(){
                     >
                         <div className="qualification__data">
                             <div>
+                                <h3 className="qualification__title">Software Engineer</h3>
+                                <span className="qualification__subtitle">Fidelity Investments - India</span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt"></i> Aug - Present
+                                </div>
+                            </div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div className="qualification__data">
+                            <div></div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification__title">Executive Graduate Trainee</h3>
+                                <span className="qualification__subtitle">Fidelity Investments - India</span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt"></i> Aug 24 - Aug 2025
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div className="qualification__data">
+                            <div>
                                 <h3 className="qualification__title">Full Stack Engineer Intern</h3>
                                 <span className="qualification__subtitle">Fidelity Investments - India</span>
                                 <div className="qualification__calendar">
@@ -136,7 +168,7 @@ function Qualification(){
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Software Developer Intern</h3>
+                                <h3 className="qualification__title">Full Stack Engineer Intern</h3>
                                 <span className="qualification__subtitle">Fidelity Investments - India</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i> Jun - Aug 2023
@@ -145,7 +177,7 @@ function Qualification(){
 
                         </div>
 
-                        <div className="qualification__data">
+                        {/* <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Student Intern</h3>
                                 <span className="qualification__subtitle">IBM - India</span>
@@ -160,7 +192,7 @@ function Qualification(){
                             </div>
                         </div>
 
-                        {/* <div className="qualification__data">
+                        <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Web Designer</h3>
                                 <span className="qualification__subtitle">India - Institute</span>

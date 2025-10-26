@@ -44,14 +44,14 @@ function Contact(){
                             </a>
                         </div>
 
-                        <div className="contact__card">
+                        {/* <div className="contact__card">
                             <i className="bx bxl-skype contact__card-icon"></i>
                             <h3 className="contact__card-title">Skype</h3>
                             <span className="contact__card-data">Nitheesh Kumar N</span>
                             <a href="https://join.skype.com/invite/wKm4d7V4FijZ" className="contact__button" target='_blank' rel="noreferrer">Write me in 
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
@@ -71,7 +71,7 @@ function Contact(){
 
                         <div className="contact__form-div contact__form-area">
                             <label className="contact__form-tag">Chat</label>
-                            <textarea name="project" cols="30" rows="10" className="contact__form-input" placeholder="Write your thoughts"></textarea>
+                            <textarea name="project" cols="30" rows="10" className="contact__form-input" placeholder="Write your thoughts" required></textarea>
                         </div>
 
                         <button className="button button--flex">

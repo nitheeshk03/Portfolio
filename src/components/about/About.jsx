@@ -14,7 +14,7 @@ function About() {
                 <div className="about__data">
                     <Info />
                     <p className="about__description">
-                    Aspiring Software Development Engineer with a strong coding foundation and problem-solving skills. My hands-on experience with projects and internships has honed my problem-solving abilities and collaborative mindset. Thriving in dynamic environments, I am motivated to continuously learn and adapt to emerging technologies while delivering high-quality code. 
+                    Full Stack Developer passionate about creating scalable, user-focused web applications. In my day-to-day, I work across the full stack to deliver clean, efficient solutions and I go beyond my core role by exploring AI-driven ideas as stretch projects to spark innovation and add value. I thrive in fast-paced, collaborative environments, continuously learning and adapting to emerging technologies to deliver clean, efficient, and impactful solutions.
                     </p>
                     <a download="" href={CV} className="button button--flex">
                         Download Resume

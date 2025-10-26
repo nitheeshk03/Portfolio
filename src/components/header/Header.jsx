@@ -2,22 +2,33 @@ import React, {useState} from "react";
 import "./header.css";
 
 function Header(){
-
-    /* Change Background Header */
-    window.addEventListener("scroll", function(){
-        const header = document.querySelector(".header");
-        if(this.scrollY >= 80) header.classList.add("scroll-header");
-        else header.classList.remove("scroll-header")
-        
-    });
-
     /* For toggling menu */
     const [toggle, setToggle] = useState(false);
     const [activeNav, setActiveNav] = useState("#home")
-    // setTimeout(() => {
-    //     let url = window.location.href
-    //     setActiveNav(url.slice(url.indexOf('#')))
-    // }, 500)
+
+    React.useEffect(() => {
+        const handleScroll = () => {
+            // Change header background
+            const header = document.querySelector(".header");
+            if(window.scrollY >= 80) header.classList.add("scroll-header");
+            else header.classList.remove("scroll-header");
+
+            // Section highlighting
+            const sections = document.querySelectorAll("section[id]");
+            let current = "#home";
+            const scrollY = window.pageYOffset;
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                const sectionHeight = section.offsetHeight;
+                if(scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+                    current = `#${section.getAttribute('id')}`;
+                }
+            });
+            setActiveNav(current);
+        };
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
     return(
         <header className="header">
@@ -45,9 +56,16 @@ function Header(){
                         </li>
 
                         <li className="nav__item">
-                            <a href="#courses" onClick={()=> setActiveNav("#courses")} className={activeNav==="#services"?"nav__link active-link":"nav__link"}>
+                            <a href="#courses" onClick={()=> setActiveNav("#courses")} className={activeNav==="#courses"?"nav__link active-link":"nav__link"}>
                                 <i className="uil uil-book-open nav__icon"></i>
                                 Courses
+                            </a>
+                        </li>
+
+                        <li className="nav__item">
+                            <a href="#experience" onClick={()=> setActiveNav("#experience")} className={activeNav==="#experience"?"nav__link active-link":"nav__link"}>
+                                <i className="uil uil-book-open nav__icon"></i>
+                                Experience
                             </a>
                         </li>
 

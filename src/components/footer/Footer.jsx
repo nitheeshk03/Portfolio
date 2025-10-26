@@ -12,11 +12,11 @@ function Footer(){
                     </li>
 
                     <li>
-                        <a href="#skills" className="footer__link">Skills</a>
+                        <a href="#experience" className="footer__link">Experience</a>
                     </li>
 
                     <li>
-                        <a href="#portfolio" className="footer__link">Projects</a>
+                        <a href="#skills" className="footer__link">Skills</a>
                     </li>
                 </ul>
                 <div className="footer__social">
@@ -26,9 +26,9 @@ function Footer(){
                     <a href="https://www.linkedin.com/in/nitheesh-kumar-n/" className="footer__social-link" target="_blank" rel="noreferrer">
                         <i className="bx bxl-linkedin"></i>
                     </a>
-                    <a href="https://join.skype.com/invite/wKm4d7V4FijZ" className="footer__social-link" target="_blank" rel="noreferrer">
+                    {/* <a href="https://join.skype.com/invite/wKm4d7V4FijZ" className="footer__social-link" target="_blank" rel="noreferrer">
                         <i className="bx bxl-skype"></i>
-                    </a>
+                    </a> */}
                 </div>
                 {/* <span className="footer__copy">&#169; Nitheesh Kumar N.</span> */}
             </div>

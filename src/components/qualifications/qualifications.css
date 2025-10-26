@@ -9,15 +9,20 @@
 }
 
 .qualification__button{
-    font-size: var(--h3-font-size);
+    font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     color: var(--title-color);
-    margin: 0 var(--mb-1);
+    margin: 0 var(--mb-0-75);
     cursor: pointer;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.4rem;
+    transition: background-color 0.3s;
 }
 
+
 .qualification__button:hover{
-    color: var(--title-color-dark);
+    background-color: var(--title-color);
+    color: var(--container-color);
 }
 
 .qualification__icon{
@@ -26,7 +31,8 @@
 }
 
 .qualification__active{
-    color: var(--title-color-dark);
+    background-color: var(--title-color);
+    color: var(--container-color);
 }
 
 .qualification__sections{

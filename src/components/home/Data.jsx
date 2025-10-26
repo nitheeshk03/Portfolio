@@ -54,9 +54,9 @@ function Data(){
                   ></path>
               </svg>
             </h1>
-            <h3 className="home__subtitle">Developer</h3>
+            <h3 className="home__subtitle">Software Engineer</h3>
             <p className="home__description">
-            Enthusiastic Computer Science graduate aiming to kickstart a career as a developer in the tech industry. Armed with a strong foundation in coding, algorithms, and software development principles.
+            Dynamic Full Stack Developer and AI enthusiast with a passion for building scalable, intelligent solutions. Driven by innovation, clean code, and a strategic mindset to make a tangible difference in fast-paced, cutting-edge tech environments.
             </p>
             <a href="#contact" className="button button--flex">
                 Say Hello
