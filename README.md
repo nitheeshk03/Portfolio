@@ -6,3 +6,5 @@ Welcome to my portfolio website! This repository contains the source code for my
 - React
 - CSS
 - EmailJS (for recieving emails)
+
+- hello there!
